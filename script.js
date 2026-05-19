@@ -1,5 +1,16 @@
 const models = [
   {
+    id: "leah_meow",
+    displayName: "Leah Meow",
+    modelImageFile: "leah-meow.png",
+    statsImageFile: "info-leah-meow.png",
+    socials: {
+      instagram: "https://www.instagram.com/_leah.chan_/",
+      x: "https://twitter.com/leah__meow",
+      pornhub: "https://www.pornhub.com/model/leah-meow"
+    }
+  },
+  {
     id: "eva_elfie",
     displayName: "Eva Elfie",
     modelImageFile: "eva.png",
@@ -97,17 +108,6 @@ const models = [
       instagram: "https://www.instagram.com/katyonok",
       x: "https://twitter.com/KatyaClover",
       facebook: "https://www.facebook.com/Katyonok.official/"
-    }
-  },
-  {
-    id: "leah_meow",
-    displayName: "Leah Meow",
-    modelImageFile: "leah-meow.png",
-    statsImageFile: "info-leah-meow.png",
-    socials: {
-      instagram: "https://www.instagram.com/_leah.chan_/",
-      x: "https://twitter.com/leah__meow",
-      pornhub: "https://www.pornhub.com/model/leah-meow"
     }
   },
   {
@@ -216,7 +216,9 @@ function setPosition(index, animate = true) {
 
 function updateActiveClass(index) {
   slides.forEach((slide, slideIndex) => {
-    slide.classList.toggle("is-active", slideIndex === index);
+    const distance = Math.abs(slideIndex - index);
+    slide.classList.toggle("is-active", distance === 0);
+    slide.style.zIndex = String(20 - Math.min(distance, 10));
   });
 }
 
