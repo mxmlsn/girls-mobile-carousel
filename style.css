@@ -9,19 +9,19 @@
 :root {
   --ink: #000;
   --social: #8300e0;
-  --widget-width: min(100vw, 430px);
-  --name-top: min(62.06vw, 82px);
-  --name-size: min(8.36vw, 33px);
-  --photo-width: min(83.97vw, 361px);
-  --photo-overlap: min(33.26vw, 120px);
-  --photo-top: min(37.4vw, 161px);
-  --widget-height: min(178vw, 765px);
-  --stats-top: min(150.77vw, 580px);
-  --stats-side: min(11.96vw, 51px);
-  --social-width: min(70.74vw, 304px);
-  --social-size: min(6.87vw, 30px);
-  --social-gap: min(10.94vw, 47px);
-  --social-top-gap: min(7.74vw, 70px);
+  --widget-width: 320px;
+  --name-top: 82px;
+  --name-size: 27px;
+  --photo-width: 269px;
+  --photo-overlap: 106px;
+  --photo-top: 120px;
+  --widget-height: 575px;
+  --stats-top: 482px;
+  --stats-side: 38px;
+  --social-width: 226px;
+  --social-size: 22px;
+  --social-gap: 35px;
+  --social-top-gap: 25px;
 }
 
 * {
@@ -70,7 +70,7 @@ a {
   left: 0;
   width: 100%;
   margin: 0;
-  padding: 0 min(5.09vw, 22px);
+  padding: 0 16px;
   color: var(--ink);
   font-family: "Redaction", "Times New Roman", serif;
   font-size: var(--name-size);
@@ -137,7 +137,7 @@ a {
   top: var(--stats-top);
   left: 0;
   width: 100%;
-  padding: 0 var(--stats-side) max(min(5.09vw, 22px), env(safe-area-inset-bottom));
+  padding: 0 var(--stats-side) max(16px, env(safe-area-inset-bottom));
   pointer-events: auto;
 }
 
