@@ -8,20 +8,20 @@
 
 :root {
   --ink: #000;
-  --social: #8a7d93;
+  --social: #8300e0;
   --widget-width: min(100vw, 430px);
-  --name-top: min(32.06vw, 138px);
-  --name-size: min(6.36vw, 27px);
+  --name-top: min(62.06vw, 178px);
+  --name-size: min(8.36vw, 33px);
   --photo-width: min(83.97vw, 361px);
-  --photo-overlap: min(43.26vw, 186px);
+  --photo-overlap: min(33.26vw, 120px);
   --photo-top: min(37.4vw, 161px);
   --widget-height: min(178vw, 765px);
-  --stats-top: min(143.77vw, 618px);
+  --stats-top: min(110.77vw, 618px);
   --stats-side: min(11.96vw, 51px);
   --social-width: min(70.74vw, 304px);
   --social-size: min(6.87vw, 30px);
   --social-gap: min(10.94vw, 47px);
-  --social-top-gap: min(13.74vw, 59px);
+  --social-top-gap: min(7.74vw, 70px);
 }
 
 * {
