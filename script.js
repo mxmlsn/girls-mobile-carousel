@@ -11,6 +11,18 @@ const models = [
     }
   },
   {
+    id: "alex_mucci",
+    displayName: "Alex Mucci",
+    modelImageFile: "alex-mucci.png",
+    statsImageFile: "info-alex-mucci.png",
+    socials: {
+      tiktok: "https://www.tiktok.com/@alexismucci?lang=en",
+      instagram: "https://www.instagram.com/alex_mucci/",
+      telegram: "https://t.me/alexismucciofficial",
+      x: "https://twitter.com/alexmucci_"
+    }
+  },
+  {
     id: "eva_elfie",
     displayName: "Eva Elfie",
     modelImageFile: "eva.png",
@@ -21,18 +33,6 @@ const models = [
       telegram: "https://t.me/evaelfie_life",
       x: "https://x.com/evaelfie",
       facebook: "https://www.facebook.com/evaelfieofficialFB/"
-    }
-  },
-  {
-    id: "alex_mucci",
-    displayName: "Alex Mucci",
-    modelImageFile: "alex-mucci.png",
-    statsImageFile: "info-alex-mucci.png",
-    socials: {
-      tiktok: "https://www.tiktok.com/@alexismucci?lang=en",
-      instagram: "https://www.instagram.com/alex_mucci/",
-      telegram: "https://t.me/alexismucciofficial",
-      x: "https://twitter.com/alexmucci_"
     }
   },
   {
