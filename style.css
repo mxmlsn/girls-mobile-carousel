@@ -9,14 +9,14 @@
 :root {
   --ink: #000;
   --social: #8300e0;
-  --widget-width: 320px;
-  --name-top: 138px;
-  --name-size: 27px;
-  --photo-width: 300px;
-  --photo-overlap: 106px;
+  --widget-width: 324px;
+  --name-top: 142px;
+  --name-size: 30px;
+  --photo-width: 355px;
+  --photo-overlap: 140px;
   --photo-top: 120px;
   --widget-height: 575px;
-  --stats-top: 420px;
+  --stats-top: 470px;
   --stats-side: 38px;
   --social-width: 226px;
   --social-size: 22px;
